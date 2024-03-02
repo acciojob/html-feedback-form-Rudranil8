@@ -8,24 +8,17 @@
 
 <body>
 	<form method="post">
-		<table>
-			<tr>
-				<td><label for="name">Name:</label></td>
-				<td><input type="text" id="name" name="name" minlength="3" maxlength="50" required></td>
-			</tr>
-			<tr>
-				<td><label for="portfolio">Portfolio:</label></td>
-				<td><input id="portfolio" name="portfolio" type="url" required></td>
-			</tr>
-			<tr>
-				<td><label for="favColor" id="favColor">Favorite Color:</label></td>
-				<td><input type="color" id="favColor" name="favColor"></td>
-			</tr>
-			<tr>
-				<td><label for="likeness">Likeness:</label></td>
-				<td><input type="range" id="likeness" name="linkeness" min="1" max="100"></td>
-			</tr>
-		</table>
+	<label for="name">Name:</label>
+	<input type="text" id="name" name="name" minlength="3" maxlength="50" required>
+	<br>
+		<label for="portfolio">Portfolio:</label>
+	<input id="portfolio" name="portfolio" type="url" required>
+	<br>
+	<label for="favColor" id="favColor">Favorite Color:</label>
+	<input type="color" id="favColor" name="favColor">
+<br>
+	<label for="likeness">Likeness:</label>
+	<input type="range" id="likeness" name="linkeness" min="1" max="100"><br>
 		<button type="submit">Submit</button>
 	</form>
 </body>
