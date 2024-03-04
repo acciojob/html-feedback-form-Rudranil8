@@ -8,17 +8,18 @@
 
 <body>
 	<form method="post">
+		<h2>Feedback Form</h2>
 	<label for="name">Name:</label>
 	<input type="text" id="name" name="name" minlength="3" maxlength="50" required>
 	
 		<label for="portfolio">Portfolio:</label>
-	<input id="portfolio" name="portfolio" type="url" required>
+	<input type="url" id="portfolio" name="portfolio" required>
 	
-	<label for="favColor" id="favColor">Favorite Color:</label>
-	<input type="color" id="favColor" name="favColor">
+	<label for="favColor">Favorite Color:</label>
+	<input type="color" id="favColor" name="favColor" required>
 
 	<label for="likeness">Likeness:</label>
-	<input type="range" id="likeness" name="linkeness" min="1" max="100"><br>
+	<input type="range" id="likeness" name="linkeness" min="1" max="100" required><br>
 		<button type="submit">Submit</button>
 	</form>
 </body>
